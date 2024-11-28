@@ -29,7 +29,7 @@ Vagrantfile
 
 # Custom
 app/src
-app/moodle_data
+app/moodle_data/*
 db_data
 redis_data
 data/*
@@ -39,3 +39,5 @@ data-teste
 log.*
 nginx/log
 kompose
+
+!app/moodle_data/.keep

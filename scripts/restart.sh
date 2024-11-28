@@ -1,4 +1,3 @@
-
 sudo docker compose down 
 echo "voule-vous supprimer les volumes?"
 select yn in "Yes" "No"; do

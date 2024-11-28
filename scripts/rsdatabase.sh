@@ -5,9 +5,7 @@ BACKUPMOOD=../app/moodle_data
 LOGS=./backups/logs
 
 
-
 echo -e "\033[35mRESTAURATION Database\033[0m"
-
 echo -e "\033[36mvoule-vous unzip un fichier .gz?\033[0m"
 
 select yn in "Yes" "No" ; do
@@ -77,4 +75,4 @@ select yn in "Yes" "No" ; do
             ;;
         No ) break ;;
     esac
-done 
+done
